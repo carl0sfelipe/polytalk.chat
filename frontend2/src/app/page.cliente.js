@@ -1,8 +1,9 @@
 import io from 'socket.io-client';
 import sendMessage from './page.client';
 
+
 export default function Home() {
-  const socket = io.connect('http://localhost:3000');
+  const socket = io('http://localhost:3000');
   let currentRoomId = null;
 
 
