@@ -13,12 +13,12 @@ const { addUserToQueue, findPairForUser } = require('./utils/userQueue');
 let waitingUsers = [];
 
 // Serve arquivos estáticos do diretório 'frontend'
-app.use(express.static('../frontend3/build'));
+app.use(express.static('../frontend/build'));
 
 app.use('/api', userRoutes);
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'frontend3', 'build', 'index.html'));
+    res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
 });
 
 // Use o middleware CORS para permitir solicitações de diferentes origens
