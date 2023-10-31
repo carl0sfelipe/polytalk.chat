@@ -1,0 +1,20 @@
+{
+  "name": "polytalk.chat",
+  "version": "1.0.0",
+  "description": "A chat project inspired by Omegle, featuring a reputation system.",
+  "main": "/backend/index.js",
+  "scripts": {
+    "start": "cd backend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carl0sfelipe/polytalk.chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carl0sfelipe/polytalk.chat/issues"
+  },
+  "homepage": "https://github.com/carl0sfelipe/polytalk.chat#readme"
+}

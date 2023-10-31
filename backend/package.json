@@ -1,7 +1,7 @@
 {
   "name": "polytalk.chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "chat online",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
